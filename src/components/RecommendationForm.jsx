@@ -36,7 +36,6 @@ const RecommendationForm = () => {
       <select value={tipType} onChange={(e) => setTipType(e.target.value)}>
         <option value="foder">Foder</option>
         <option value="aktiviteter">Aktiviteter</option>
-        <option value="träningsprogram">Träningsprogram</option>
         <option value="hundvård">Hundvård</option>
         <option value="produkter">Produkter och tillbehör</option>
       </select>
