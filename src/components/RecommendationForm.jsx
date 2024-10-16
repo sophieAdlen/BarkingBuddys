@@ -5,7 +5,7 @@ const RecommendationForm = () => {
   const [age, setAge] = useState('');
   const [weight, setWeight] = useState('');
   const [allergies, setAllergies] = useState('');
-  const [tipType, setTipType] = useState('foder'); // Ny state för tipstyp
+  const [tipType, setTipType] = useState('foder'); 
   const [recommendation, setRecommendation] = useState('');
 
   const getRecommendation = async () => {
@@ -36,7 +36,7 @@ const RecommendationForm = () => {
       <select value={tipType} onChange={(e) => setTipType(e.target.value)}>
         <option value="foder">Foder</option>
         <option value="aktiviteter">Aktiviteter</option>
-        <option value="hundvård">Hundvård</option>
+        <option value="hundvård">Allmänvård</option>
         <option value="produkter">Produkter och tillbehör</option>
       </select>
 
